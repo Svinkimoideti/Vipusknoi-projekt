@@ -1,41 +1,24 @@
-body {
-    font-family: Bradley Hand, cursive; /* Семейство шрифтов */
-    font-size: 15px; /* Размер основного шрифта в <p></p>  */
-    background-color: #93bab6; /* Цвет фона веб-страницы */
-} 
-
-@keyframes color-change {
-    0% {
-      color: blue;
-    }
-  
-    50% {
-      color: red;
-    }
-  
-    100% {
-      color: blue;
-    }
+html{
+    background-color: rgba(19, 156, 127, 0.767);
 }
 
-h1 {
-    animation: color-change 3s infinite;
+img{
+    width: 600px;
 }
 
-@keyframes color-change {
-    0% {
-      color: blue;
-    }
-  
-    50% {
-      color: red;
-    }
-  
-    100% {
-      color: blue;
-    }
+h1{
+    text-align:center;
+    color:rgb(7, 22, 70);
+    width: 1920px;
 }
 
-p {
-    animation: color-change 3s infinite;
+p{
+    text-align:center;
+    color:rgb(59, 24, 156);
+    width: 1920px;
 }
+
+div {
+    text-align: center;
+  }
+  
